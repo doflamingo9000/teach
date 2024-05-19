@@ -1,0 +1,50 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comment Créer un beau Formulaire de Contact en HTML & CSS</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form>
+      <h1>Commande de service en ligne chez ETS SA ME DIT</h1>
+      <div class="separation"></div>
+      <div class="corps-formulaire">
+        <div class="gauche">
+          <div class="groupe">
+            <label>Votre nom et Prénom</label>
+            <input type="text" autocomplete="off" id="1"/>
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre adresse e-mail et une copie du documents envoyes par mail a l'entreprise</label>
+            <input type="text" autocomplete="off" id="2"/>
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre téléphone</label>
+            <input type="text" autocomplete="off" id="3"/>
+            <i class="fas fa-mobile"></i>
+          </div>
+        </div>
+
+        <div class="droite">
+          <div class="groupe">
+            <label> Explication de la commande par le clients </label>
+            <textarea placeholder="Explication du service ici..." id="4"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="pied-formulaire" align="center">
+        <button onclick="validation ()">Envoyer </button>
+      </div>
+    </form>
+  </body>
+</html>
